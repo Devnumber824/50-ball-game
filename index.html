@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p>
+    1) pick a ball from the list
+    <br>
+    2) if selected ball turns red that means blue ball is after selected ball
+    <br>
+    3) if selected ball turns green that menas blue ball is before it
+    <br>
+    4)you have only 6 chances to guess correctly
+  </p>
+  <hr>
+  </hr>
+  <button class="buttonst" onclick="test()">Start Game</button>
+
+  <span id="counts">Count: </span>
+
+
+
+
+  <div class="btnGroup">
+    <span class="Btn" id="verifiBtn">
+      <button onclick="Reset()">Reset</button>
+    </span>
+    <span class="timer">
+      <span id="counter"></span>
+    </span>
+  </div>
+  <br>
+  </br>
+  <div id="test"></div>
+  <script src="script.js"></script>
+
+  <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
